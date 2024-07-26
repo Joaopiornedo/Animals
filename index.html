@@ -3,19 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pet Shop</title>
+    <title>Arara Vermelha - Animals</title>
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/responsive.css">
 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="src/img/icon.ico" type="image/x-icon">
 
-    <script src="script.js" defer></script>
+    <script src="./src/js/script.js" defer></script>
 
 </head>
 <body>
+    <!--Cursor Efect-->
+    <div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+
     <header>
-        <article id="logo">
+        <article id="logo" >
             <h1>Animals</h1>
         </article>
         <nav id="nav-bar">
@@ -35,13 +59,13 @@
         </article>
         <nav id="nav-aside">
             <button class="btn-aside">
-                <img class="img-aside" src="./src/img/instagram.png" alt="instagram">
+                <img class="img-aside" src="./src/img/instagram.png" alt="instagram" draggable="false">
             </button>
             <button class="btn-aside">
-                <img class="img-aside" src="./src/img/facebook.png" alt="facebook">
+                <img class="img-aside" src="./src/img/facebook.png" alt="facebook" draggable="false">
             </button>
             <button class="btn-aside">
-                <img class="img-aside" src="./src/img/youtube.png" alt="youtube">
+                <img class="img-aside" src="./src/img/youtube.png" alt="youtube" draggable="false">
             </button>
             
         </nav>
@@ -50,13 +74,19 @@
         <img id="arara" src="./src/img/Arara-g.png" alt="" draggable="false">
     </picture>
     <hr>
-    <main id="foto">
-        <nav id="btn-main">
-            <button id="left" onclick="btn_voltar()">
-                <img src="./src/img/left.png" alt="arrow left">
+    <main id="mainft">
+        <nav id="botoes-main">
+
+            <button id="btn-1" onclick="btn_main_1()">
+                <img src="./src/img/lupa.png" alt="lupa">
             </button>
-            <button id="right" onclick="btnAvancar()">
-                <img src="./src/img/right.png" alt="arrow right">
+
+            <button id="btn-2" onclick="btn_main_2()">
+                <img src="./src/img/localizacao.png" alt="localização">
+            </button>
+
+            <button id="btn-3" onclick="btn_main_3()">
+                <img src="./src/img/coracao.png" alt="coração">
             </button>
         </nav>
         <aside id="aside-low">
@@ -73,11 +103,44 @@
     </main>
     <hr>
     <section id="cards">
-        
+        <h1 class="titlo">Veja mais sobre outros animais:</h1>
+
+        <div class="wrapper">
+
+            <button id="left">
+                <img src="./src/img/left.png" alt="arrow left" draggable="false">
+            </button>
+
+            <ul class="carousel">
+
+                <li class="card_animais">
+                    <div class="img leao"></div>
+                    <h2>LEÃO</h2>
+                </li>
+
+                <li class="card_animais">
+                    <div class="img camaleao"></div>
+                    <h2>CAMALEÃO</h2>
+                </li>
+
+                <li class="card_animais">
+                    <div class="img lobo"></div>
+                    <h2>LOBO</h2>
+                </li>
+
+            </ul>
+
+            <button id="right">
+                <img src="./src/img/right.png" alt="arrow right" draggable="false">
+            </button>
+
+        </div>
     </section>
+
     <hr>
     <footer>
-        <p>Site criando por João e Pedro</p>
+        <p>Feito por <a href="https://github.com/JoaoPiornedo" target="_blank"><strong>João Piornedo</strong></a>
+            e <a href="https://github.com/PiornedoCodes07" target="_blank"><strong>Pedro Piornedo</strong></a></p>
     </footer>
 </body>
 </html>
