@@ -90,6 +90,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
 #btn-login {
@@ -275,14 +276,13 @@ hr {
     border: none;
 }
 
-#aside-low {
-    height: 30em;
-}
 
 #cards {
     display: grid;
     grid-template-rows: 1fr 10fr;
     height: 45em;
+    align-items: center;
+    justify-content: center;
 }
 
 .titlo {

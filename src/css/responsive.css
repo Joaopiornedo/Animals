@@ -1,0 +1,628 @@
+@media (max-width:320px) {
+    header {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        height: 7.5em;
+    }
+
+    #logo {
+        font-size: 0.6em;
+    }
+
+    #nav-bar {
+        justify-content: none;
+        gap: 1em;
+    }
+
+    .btn-navbar {
+        width: 5em;
+    }
+
+    #btn-login {
+        width: 6em;
+        height: 1.3em;
+    }
+
+    aside {
+        height: 17em;
+    }
+
+    #nav-aside {
+        justify-content: right;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .btn-aside {
+        width: 3em;
+        height: 3em;
+    }
+
+    .img-aside {
+        max-width: 2em;
+    }
+
+    #aside-text {
+        justify-content: center;
+    }
+
+
+    #aside-text h1 {
+        font-size: 2em;
+    }
+
+    #aside-text h6 {
+        font-size: 0.9em;
+        letter-spacing: 0.5em;
+    }
+
+    #arara {
+        height: 14.5em;
+        width: 10em;
+        left: -3.5em;
+        top: 11.5em;
+    }
+
+    main {
+        background-position: center;
+        height: 40em;
+    }
+
+    #botoes-main img {
+        width: 20px;
+    }
+
+    #botoes-main button {
+        height: 3em;
+        width: 3em;
+    }
+
+    #aside-low {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 4fr;
+        height: 35em;
+    }
+
+    #msg {
+        width: 90%;
+        font-size: 1em;
+    }
+    #cards{
+        height: 23em;
+    }
+    
+
+    .titlo {
+        font-size: 0.85em;
+    }
+
+    .wrapper {
+    grid-template-columns: none;
+    display: flex;
+    flex-direction: column;
+    }
+    .carousel {
+        justify-content: center;
+        gap: 0.1em;
+        height: 70%;
+        
+    }
+
+    .card_animais {
+        grid-template-rows: 10fr 1fr;
+        width: 6.5em;
+        height: 12em;
+        text-align: center;
+    }
+    .card_animais h2{
+        font-size: 0.6em;
+        padding: 5px ;
+    }
+    .camaleao{
+       width: 91%;
+    }
+    
+    #left img{
+        width: 2.5em;
+        padding: 5px 5px 7px 6px;
+    }
+    #right img{
+        width: 2.5em;
+        padding: 5px 5px 7px 6px;
+    }
+    footer{
+        font-size: 1em;
+    }
+}
+@media (min-width:321px) and (max-width:480px) {
+    header {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        height: 7.5em;
+    }
+
+    #logo {
+        font-size: 0.6em;
+    }
+
+    #nav-bar {
+        justify-content: none;
+        gap: 1em;
+    }
+
+    .btn-navbar {
+        width: 5em;
+    }
+
+    #btn-login {
+        width: 6em;
+        height: 1.3em;
+    }
+
+    aside {
+        height: 17em;
+    }
+
+    #nav-aside {
+        justify-content: right;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .btn-aside {
+        width: 3em;
+        height: 3em;
+    }
+
+    .img-aside {
+        max-width: 2em;
+    }
+
+    #aside-text {
+        justify-content: center;
+    }
+
+
+    #aside-text h1 {
+        font-size: 2em;
+    }
+
+    #aside-text h6 {
+        font-size: 0.9em;
+        letter-spacing: 0.5em;
+    }
+
+    #arara {
+        height: 14.5em;
+        width: 10em;
+        left: -3.5em;
+        top: 11.5em;
+    }
+
+    main {
+        background-position: center;
+        height: 40em;
+    }
+
+    #botoes-main img {
+        width: 20px;
+    }
+
+    #botoes-main button {
+        height: 3em;
+        width: 3em;
+    }
+
+    #aside-low {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 4fr;
+        height: 35em;
+    }
+
+    #msg {
+        width: 90%;
+        font-size: 1em;
+    }
+    #cards{
+        height: 23em;
+    }
+    
+
+    .titlo {
+        font-size: 0.85em;
+    }
+
+    .wrapper {
+    grid-template-columns: none;
+    display: flex;
+    flex-direction: column;
+    }
+    .carousel {
+        justify-content: center;
+        gap: 0.1em;
+        height: 70%;
+        
+    }
+
+    .card_animais {
+        grid-template-rows: 10fr 1fr;
+        width: 6.5em;
+        height: 12em;
+        text-align: center;
+    }
+    .card_animais h2{
+        font-size: 0.6em;
+        padding: 5px ;
+    }
+    .camaleao{
+       width: 91%;
+    }
+    
+    #left img{
+        width: 2.5em;
+        padding: 5px 5px 7px 6px;
+    }
+    #right img{
+        width: 2.5em;
+        padding: 5px 5px 7px 6px;
+    }
+    footer{
+        font-size: 1em;
+    }
+}
+@media (min-width:481px) and (max-width:620px) {
+    header {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        height: 7.5em;
+    }
+
+    #logo {
+        font-size: 0.8em;
+    }
+
+    .btn-navbar {
+        width: 7em;
+    }
+
+    #btn-login {
+        height: 1.3em;
+    }
+
+    aside {
+        height: 25em;
+    }
+
+    #aside-text h1 {
+        font-size: 3em;
+    }
+
+    #aside-text h6 {
+        font-size: 1em;
+        letter-spacing: 0.5em;
+    }
+
+    #arara {
+        height: 14.5em;
+        width: 10em;
+        left: -3.5em;
+        top: 18em;
+    }
+
+    main {
+        background-position: center;
+        height: 40em;
+    }
+    #aside-low {
+        grid-template-columns: 1fr 5fr ;
+    }
+
+    #msg {
+        font-size: 1.2em;
+    }
+    #cards{
+        height: 30em;
+    }
+    
+
+    .titlo {
+        font-size: 1.3em;
+    }
+
+    .wrapper {
+    grid-template-columns: none;
+    display: flex;
+    flex-direction: column;
+    }
+    .carousel {
+        justify-content: center;
+        gap: 0.1em;
+        height: 70%;
+        
+    }
+
+    .card_animais {
+        grid-template-rows: 10fr 1fr;
+        width: 8.5em;
+        height: 12em;
+        text-align: center;
+    }
+    .card_animais h2{
+        font-size: 0.6em;
+        padding: 5px ;
+    }
+   
+    
+    #left img{
+        width: 2.5em;
+        padding: 5px 5px 7px 6px;
+    }
+    #right img{
+        width: 2.5em;
+        padding: 5px 5px 7px 6px;
+    }
+    footer{
+        font-size: 1.2em;
+    }
+}
+@media (min-width:621px) and (max-width:765px) {
+    header {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        height: 7.5em;
+    }
+    #btn-login {
+        height: 1.3em;
+    }
+
+    aside {
+        height: 35em;
+    }
+
+    #aside-text h1 {
+        font-size: 4em;
+    }
+
+    #aside-text h6 {
+        font-size: 1.2em;
+        letter-spacing: 0.5em;
+    }
+
+    #arara {
+        height: 18.5em;
+        width: 15em;
+        left: -5em;
+        top: 24em;
+    }
+
+    main {
+        background-position: center;
+    }
+    #aside-low {
+        grid-template-columns: 1fr 5fr ;
+    }
+
+    #msg {
+        font-size: 1.5em;
+    }
+    
+    .titlo {
+        font-size: 1.7em;
+    }
+    .card_animais {
+        grid-template-rows: 10fr 1fr;
+        width: 9em;
+        height: 20em;
+        text-align: center;
+    }
+    .card_animais h2{
+        font-size: 0.6em;
+        padding: 5px ;
+    }
+   
+    
+    #left img{
+        width: 4.5em;
+        padding: 5px 5px 7px 6px;
+    }
+    #right img{
+        width: 4.5em;
+        padding: 5px 5px 7px 6px;
+    }
+    footer{
+        font-size: 1.5em;
+    }
+}
+@media (min-width:766px) and (max-width:920px) {
+    header {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        height: 8.5em;
+    }
+    #btn-login {
+        height: 1.5em;
+    }
+
+    #aside-text h1 {
+        font-size: 5em;
+    }
+
+    #aside-text h6 {
+        font-size: 1.5em;
+        letter-spacing: 0.5em;
+    }
+
+    #arara {
+        height: 25.5em;
+        width: 20em;
+        left: -8em;
+        top: 20.5em;
+    }
+
+    main {
+        background-position: center;
+    }
+    #aside-low {
+        grid-template-columns: 1fr 3fr ;
+    }
+
+    #msg {
+        font-size: 1.6em;
+    }
+    
+    .titlo {
+        font-size: 2.1em;
+    }
+    .card_animais {
+        grid-template-rows: 10fr 1fr;
+        width: 11.2em;
+        height: 20em;
+        text-align: center;
+    }
+    .card_animais h2{
+        font-size: 1em;
+        padding: 10px 5px ;
+    }
+   
+    
+    #left img{
+        width: 5.5em;
+        padding: 5px 5px 7px 6px;
+    }
+    #right img{
+        width: 5.5em;
+        padding: 5px 5px 7px 6px;
+    }
+    footer{
+        font-size: 2em;
+    }
+}
+@media (min-width:921px) and (max-width:1024px) {
+    header {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        height: 8.5em;
+    }
+    #btn-login {
+        height: 1.5em;
+    }
+
+    #aside-text h1 {
+        font-size: 5em;
+    }
+
+    #aside-text h6 {
+        font-size: 1.5em;
+        letter-spacing: 0.5em;
+    }
+
+    #arara {
+        height: 30.5em;
+        width: 25em;
+        left: -8em;
+        top: 22.6em;
+    }
+
+    main {
+        background-position: center;
+    }
+    #aside-low {
+        grid-template-columns: 1fr 2fr ;
+    }
+
+    #msg {
+        font-size: 1.6em;
+    }
+    
+    .titlo {
+        font-size: 2.5em;
+    }
+    .card_animais {
+        grid-template-rows: 10fr 1fr;
+        width: 13.2em;
+        height: 20em;
+        text-align: center;
+    }
+    .card_animais h2{
+        font-size: 1.2em;
+        padding: 10px 5px ;
+    }
+   
+}
+@media (min-width:1025px) and (max-width:1200px) {
+    
+    #aside-text h1 {
+        font-size: 5em;
+    }
+
+    #aside-text h6 {
+        letter-spacing: 0.6em;
+    }
+
+    #arara {
+        height: 30.5em;
+        width: 25em;
+        left: -10em;
+        top: 18.6em;
+    }
+
+    main {
+        background-position: center;
+    }
+    #aside-low {
+        grid-template-columns: 1fr 2fr ;
+    }
+    
+    .titlo {
+        font-size: 2.8em;
+    }
+    .card_animais {
+        grid-template-rows: 10fr 1fr;
+        width: 14.8em;
+        height: 30em;
+        text-align: center;
+    }
+    .card_animais h2{
+        font-size: 1.2em;
+        padding: 10px 5px ;
+    }
+   
+}
+@media (min-width:1201px) and (max-width:1420px) {
+    #arara {
+        height: 30.5em;
+        width: 25em;
+        left: -10em;
+        top: 18.6em;
+    }
+
+   
+    #aside-low {
+        grid-template-columns: 1fr 1.2fr ;
+    }
+    
+    .card_animais {
+        width: 16em;
+       
+        text-align: center;
+    }
+    .card_animais h2{
+        font-size: 1.4em;
+        padding: 10px 5px ;
+    }
+   
+}
+
+
