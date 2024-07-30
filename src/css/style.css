@@ -341,15 +341,15 @@ hr {
     filter: grayscale(0%);
 }
 .leao{
-    background-image: url(/src/img/Lion.jpg);
+    background-image: url(../img/Lion.jpg);
     background-position: 45%;
 }
 .camaleao{
-    background-image: url(/src/img/camaleao.jpg);
+    background-image: url(../img/camaleao.jpg);
     background-position: 36%;
 }
 .lobo{
-    background-image: url(/src/img/lobo.jpg);
+    background-image: url(../img/lobo.jpg);
     background-position: 36%;
 }
 
