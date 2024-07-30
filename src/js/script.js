@@ -20,7 +20,7 @@ function btn_main_1() {
     botao3.style.width = "3.5em"
     botao3.style.height = "3.5em"
     botao3.style.background = ""
-    foto.style.backgroundImage= "url(../src/img/ft-1.jpg)"
+    foto.style.backgroundImage= "url(../img/ft-1.jpg)"
 }
 function btn_main_2() {
     h1.innerHTML = "Habitat e Distribuição";
@@ -35,7 +35,7 @@ function btn_main_2() {
     botao3.style.width = "3.5em"
     botao3.style.height = "3.5em"
     botao3.style.background = ""
-    foto.style.backgroundImage= "url(../src/img/ft-2.jpg)"
+    foto.style.backgroundImage= "url(../img/ft-2.jpg)"
 }
 function btn_main_3() {
     h1.innerHTML = "Comportamento e Reprodução";
@@ -50,7 +50,7 @@ function btn_main_3() {
     botao3.style.width = "4.5em"
     botao3.style.height = "4.5em"
     botao3.style.background = "#FBB13C"
-    foto.style.backgroundImage= "url(../src/img/ft-3.jpg)"
+    foto.style.backgroundImage= "url(../img/ft-3.jpg)"
 }
 //Cursor Efect
 const coords = { x: 0, y: 0 };
