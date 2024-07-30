@@ -51,7 +51,6 @@ function btn_main_3() {
     botao3.style.height = "4.5em"
     botao3.style.background = "#FBB13C"
     foto.style.backgroundImage= "url(../src/img/ft-3.jpg)"
-    
 }
 //Cursor Efect
 const coords = { x: 0, y: 0 };
