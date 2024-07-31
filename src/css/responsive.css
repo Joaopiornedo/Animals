@@ -4,7 +4,7 @@
         grid-template-rows: 1fr 1fr 1fr;
         align-items: center;
         justify-content: center;
-        height: 7.5em;
+        height: 9em;
     }
 
     #logo {
@@ -142,7 +142,7 @@
         grid-template-rows: 1fr 1fr 1fr;
         align-items: center;
         justify-content: center;
-        height: 7.5em;
+        height: 9em;
     }
 
     #logo {
@@ -280,7 +280,7 @@
         grid-template-rows: 1fr 1fr 1fr;
         align-items: center;
         justify-content: center;
-        height: 7.5em;
+        height: 9em;
     }
 
     #logo {
@@ -312,7 +312,7 @@
         height: 14.5em;
         width: 10em;
         left: -3.5em;
-        top: 18em;
+        top: 19.5em;
     }
 
     main {
@@ -377,7 +377,7 @@
         grid-template-rows: 1fr 1fr 1fr;
         align-items: center;
         justify-content: center;
-        height: 7.5em;
+        height: 9em;
     }
     #btn-login {
         height: 1.3em;
@@ -400,7 +400,7 @@
         height: 18.5em;
         width: 15em;
         left: -5em;
-        top: 24em;
+        top: 25.5em;
     }
 
     main {
@@ -411,7 +411,7 @@
     }
 
     #msg {
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
     
     .titlo {
@@ -447,7 +447,7 @@
         grid-template-rows: 1fr 1fr 1fr;
         align-items: center;
         justify-content: center;
-        height: 8.5em;
+        height: 9em;
     }
     #btn-login {
         height: 1.5em;
@@ -466,7 +466,10 @@
         height: 25.5em;
         width: 20em;
         left: -8em;
-        top: 20.5em;
+        top: 21em;
+    }
+    #msg {
+        font-size: 1.5em;
     }
 
     main {
@@ -474,10 +477,6 @@
     }
     #aside-low {
         grid-template-columns: 1fr 3fr ;
-    }
-
-    #msg {
-        font-size: 1.6em;
     }
     
     .titlo {
@@ -513,7 +512,7 @@
         grid-template-rows: 1fr 1fr 1fr;
         align-items: center;
         justify-content: center;
-        height: 8.5em;
+        height: 9em;
     }
     #btn-login {
         height: 1.5em;
@@ -532,7 +531,7 @@
         height: 30.5em;
         width: 25em;
         left: -8em;
-        top: 22.6em;
+        top: 23em;
     }
 
     main {
@@ -541,11 +540,6 @@
     #aside-low {
         grid-template-columns: 1fr 2fr ;
     }
-
-    #msg {
-        font-size: 1.6em;
-    }
-    
     .titlo {
         font-size: 2.5em;
     }
@@ -575,8 +569,9 @@
         height: 30.5em;
         width: 25em;
         left: -10em;
-        top: 18.6em;
+        top: 20.6em;
     }
+    
 
     main {
         background-position: center;
@@ -605,10 +600,9 @@
         height: 30.5em;
         width: 25em;
         left: -10em;
-        top: 18.6em;
+        top: 20.6em;
     }
-
-   
+    
     #aside-low {
         grid-template-columns: 1fr 1.2fr ;
     }
@@ -623,6 +617,14 @@
         padding: 10px 5px ;
     }
    
+}
+@media (min-width: 1421px){
+    #arara {
+        height: 30.5em;
+        width: 25em;
+        left: -10em;
+        top: 20.6em;
+    }
 }
 
 
