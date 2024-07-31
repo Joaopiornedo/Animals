@@ -30,7 +30,6 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    overflow-x: hidden;
     position: relative;
   
     
@@ -40,7 +39,7 @@ header {
     background-color: rgba(27, 48, 34, 0.500);
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-    height: 7.5em;
+    height: 6.5em;
     gap: 0.2em;
     padding: 1em;
     
@@ -110,6 +109,7 @@ aside {
     display: grid;
     grid-row: 1fr 1fr;
     height: 37.5em;
+    overflow: hidden;
 }
 
 #nav-aside {
@@ -158,6 +158,8 @@ aside {
     text-align: center;
     color: white;
     animation: anima-text 5s linear infinite;
+   
+    
 
 }
 #aside-text h1{  
