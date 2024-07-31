@@ -15,17 +15,6 @@
     font-display: swap;
 }
 
-.circle {
-    height: 15px;
-    width: 15px;
-    border-radius: 24px;
-    background-color: black;
-    position: fixed; 
-    top: 0;
-    left: 0;
-    pointer-events: none;
-    z-index: 99999999; 
-  }
 
 :root {
     --cor1: #E01E00;
@@ -42,6 +31,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     overflow-x: hidden;
+    position: relative;
   
     
 }
@@ -81,6 +71,7 @@ header {
     width: 10em;
     height: 1.5em;
     transition: 0.5s;
+    cursor: pointer;
     
 }
 
@@ -106,6 +97,7 @@ header {
     height: 1.8em;
     transition: 0.5s;
     font-family: 'Heartfield';
+    cursor: pointer;
     
 }
 
@@ -138,6 +130,7 @@ aside {
     align-items: center;
     justify-content: center;
     border: solid 1px var(--cor4);
+    cursor: pointer;
 }
 
 .btn-aside:hover {
@@ -221,6 +214,7 @@ main {
 }
 #botoes-main img{
     width: 30px;
+    cursor: pointer;
 }
 #botoes-main{
     display: flex;
@@ -229,6 +223,7 @@ main {
     gap: 3em;
     height: 100%;
     background-color: rgba(27, 48, 34, 0.900);
+    
 }
 #botoes-main button {
     background-color: transparent;
@@ -339,6 +334,7 @@ hr {
     background-position: center;
     background-size: cover;
     border-radius: 5% 5% 0% 0%;
+   
 }
 .img:hover{
     filter: grayscale(0%);
@@ -372,6 +368,7 @@ hr {
     border-radius: 50%;
     padding: 5px 5px 5px 7px;
     transition: 0.5s;
+    cursor: pointer;
 }
 #left img:hover{
     scale: 1.1;
@@ -389,6 +386,7 @@ hr {
     border-radius: 50%;
     padding: 5px 5px 5px 7px;
     transition: 0.5s;
+    cursor: pointer;
 }
 #right img:hover{
     scale: 1.1;
