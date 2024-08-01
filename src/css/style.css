@@ -6,6 +6,7 @@
     font-style: normal;
     font-display: swap;
 }
+
 @font-face {
     font-family: 'Flowers Kingdom';
     src: url('../fonts/FlowersKingdom.woff2') format('woff2'),
@@ -30,19 +31,17 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    position: relative;
-  
-    
 }
 
+/* Header Bloco 1*/
 header {
     background-color: rgba(27, 48, 34, 0.500);
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-    height: 6.5em;
-    gap: 0.2em;
-    padding: 1em;
-    
+    padding: 0.5em 0em;
+    height: 7em;
+    gap: 1em;
+
 }
 
 #logo {
@@ -52,12 +51,15 @@ header {
     font-size: 1em;
     letter-spacing: 2px;
     color: var(--cor4);
-    font-family: 'Flowers Kingdom',sans-serif;
+    font-family: 'Flowers Kingdom', sans-serif;
 }
+
 #nav-bar {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 3em;
+    height: 90%;
 }
 
 .btn-navbar {
@@ -71,11 +73,11 @@ header {
     height: 1.5em;
     transition: 0.5s;
     cursor: pointer;
-    
+
 }
 
 .btn-navbar:hover {
-    text-shadow: 0px 2px 10px var(--cor3);
+    text-shadow: 0px 5px 10px var(--cor4);
     transform: scale(1.05);
 }
 
@@ -83,7 +85,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
 }
 
 #btn-login {
@@ -97,7 +98,7 @@ header {
     transition: 0.5s;
     font-family: 'Heartfield';
     cursor: pointer;
-    
+
 }
 
 #btn-login:hover {
@@ -105,44 +106,60 @@ header {
     border: solid 1px var(--cor4);
 }
 
-aside {
+/* Aside*/
+#aside-top {
     display: grid;
-    grid-row: 1fr 1fr;
-    height: 37.5em;
-    overflow: hidden;
+    grid-template-rows: 5fr 1fr;
+    height: 37em;
 }
 
-#nav-aside {
+/* Aside 1/ Textos*/
+#aside-top-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#aside-top-txt h1 {
+    font-size: 6em;
+    text-align: center;
+    font-family: 'Flowers Kingdom';
+}
+
+#aside-top-txt h6 {
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 0.7em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace
+}
+
+/* Aside Bloco 2/ Botões */
+.aside-top-bt {
     display: flex;
     justify-content: end;
-    align-items: end;
-    gap: 2em;
-    padding: 1em;
-}
-
-.btn-aside {
-    background-color: transparent;
-    width: 5em;
-    height: 5em;
-    border-radius: 50%;
-    border: none;
-    display: flex;
     align-items: center;
-    justify-content: center;
-    border: solid 1px var(--cor4);
-    cursor: pointer;
+    gap: 2em;
+    padding: 0em 1em;
 }
 
-.btn-aside:hover {
+.aside-top-bt button {
+    background-color: transparent;
     border: none;
-    background-color: #1B3022;
-
 }
 
 .img-aside {
-    max-width: 3em;
+    background-color: var(--cor4);
+    padding: 3px;
+    width: 4em;
     filter: grayscale(100%);
     transition: 0.5s;
+    cursor: pointer;
+    border-radius: 50%;
 }
 
 .img-aside:hover {
@@ -150,36 +167,15 @@ aside {
     filter: grayscale(0%);
 }
 
-#aside-text {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    justify-content: end;
-    text-align: center;
-    color: white;
-    animation: anima-text 5s linear infinite;
-   
-    
-
+/* Header Bloco 2/ Arara */
+#arara {
+    position: absolute;
+    left: -5em;
+    top: 8.5em;
+    height: 35.5em;
+    width: 28em;
+    animation: arara-filter 5s infinite alternate;
 }
-#aside-text h1{  
-    font-size: 6em;
-    font-family: 'Flowers Kingdom';
-}
-#aside-text h6{
-    font-size: 2em;
-    text-transform:uppercase ;
-    font-weight: normal;
-    letter-spacing: 0.9em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace
-    
-}
-@keyframes anima-text{
-      100% {
-        transform: translateX(10%); 
-    }
-}
-
 
 @keyframes arara-filter {
     0% {
@@ -193,82 +189,90 @@ aside {
     }
 }
 
-#arara {
-    position: absolute;
-    left: -5em;
-    top: 4.5em;
-    height: 37.5em;
-    width: 30em;
-    animation: arara-filter 5s infinite alternate;
-}
+/* Main */
 
 main {
     display: grid;
-    grid-template-rows: 1fr 8fr;
-    align-items: center;
+    grid-template-rows: 1fr 7.3fr;
     height: 50em;
-    background-image: url(../img/ft-1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat ;
-    background-attachment: fixed;
-    background-position: right ;
+   
 
 }
-#botoes-main img{
-    width: 30px;
-    cursor: pointer;
-}
-#botoes-main{
+
+/* Main Bloco 1/ Botões */
+#botoes-main {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3em;
-    height: 100%;
+    gap: 4em;
+    height: 6em;
     background-color: rgba(27, 48, 34, 0.900);
-    
-}
-#botoes-main button {
-    background-color: transparent;
-    border-radius: 100%;
-    height: 3.5em;
-    width: 3.5em;
-    border: none;
-    background-color: var(--cor3);
-    transition: ease-in 0.3s;
+
 }
 
-#botoes-main button:hover{
+#botoes-main button {
+    background-color: transparent;
+    border: none;
+}
+
+#botoes-main img {
+    border-radius: 40%;
+    width: 4em;
+    padding: 10px;
+    background-color: var(--cor3);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#botoes-main img:hover {
     background-color: var(--cor4);
     transform: scale(1.1);
 }
 
-#aside-low {
-    height: 35em;
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    align-items: center;
-    justify-items: center;
-    gap: 1em;
-    
-
-}
+/* Main Bloco 2 / Texto  */
 #msg {
-    width: 90%;
-    max-height: 100%;
-    background-color: rgba(255, 255, 255, 0.600);
-    border-radius: 20px;
-    font-size: 1.6em;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
     padding: 1em;
-    border: solid 2px var(--cor2);
-    line-height: 1.2em;
-}
-#msg h1  {
-    text-align: center;
-}
-#msg h4  {
-    text-align: center;
+    background-image: url(../img/ft-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
 }
 
+#msg h1 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.600);
+    width: 50%;
+    padding: 0.2em 1em;
+    font-size: 2em;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#msg h4 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.600);
+    width: 50%;
+    padding: 0.2em 1em;
+    font-size: 1.8em;
+
+
+}
+
+#msg p {
+    background-color: rgba(255, 255, 255, 0.600);
+    line-height: 1.2em;
+    width: 50%;
+    padding: 0.2em 1em;
+    font-size: 1.5em;
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+/* Hr Configuração geral */
 hr {
     background-color: rgba(0, 0, 0, 0.8);
     box-shadow: 0px 10px 30px black;
@@ -276,131 +280,101 @@ hr {
     border: none;
 }
 
-
-#cards {
-    display: grid;
-    grid-template-rows: 1fr 10fr;
-    height: 45em;
-    align-items: center;
-    justify-content: center;
+/* Conatainer Cards */
+#container {
+    background-color: #E01E00;
+    display: flex;
+    flex-direction: column;
+    height: 50em;
 }
-
-.titlo {
-    color: var(--color-orange);
+/* Conatainer Cards Bloco 1/ Título */
+.titulo {
+    background-color: rgb(27, 65, 121);
     text-align: center;
-    padding: 20px 0px;
-    color: white;
     font-size: 3em;
     text-shadow: 0px 10px 30px black;
     color: var(--cor4);
     font-family: 'Flowers Kingdom';
+}
+/* Cards - Botões / Carrosel */
+.bloco{
+   background-image: url(../img/fundo-cards.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2em;
+   height:85%;
 
 }
-
-.wrapper {
-
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr 6fr 1fr;
-    align-items: center;
-    justify-items: center;
-}
-
-
-
-.carousel {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-
-.card_animais {
+.card{
+    height: 400px;
+    max-width: 400px;
     background-color: var(--cor5);
-    display: grid;
-    border-radius: 5%;
-    border: solid 2px var(--cor4);
-    grid-template-rows:10fr 1fr;
-    width: 26em;
-    height: 95%;
-    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    border: solid 2px #FBB13C;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: ease 1s;
 }
-
-.img{
+.card:hover{
+    transform: scale(1.1);
+    
+}
+.img-card {
+    border-radius: 10px 10px 0px 0px;
     width: 100%;
-    transition: 1s;
+    height: 80%;
     filter: grayscale(100%);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 5% 5% 0% 0%;
-   
 }
-.img:hover{
+.img-card:hover{
     filter: grayscale(0%);
 }
-.leao{
-    background-image: url(../img/Lion.jpg);
-    background-position: 45%;
-}
-.camaleao{
-    background-image: url(../img/camaleao.jpg);
-    background-position: 36%;
-}
-.lobo{
-    background-image: url(../img/lobo.jpg);
-    background-position: 36%;
-}
 
-.card_animais h2{
-    font-size: 2em;
-    color: #fff;
-    padding: 5px 0px 0px 15px;
-    font-weight: normal;
-    letter-spacing: 0.6em;
-    font-family: Arial, Helvetica, sans-serif
-}
-
-
-#left img{
-    width: 7em;
+/* Cards - Botões Left / Right */
+#left img {
+    width: 4em;
+    height: 4em;
     background-color: var(--cor4);
     border-radius: 50%;
-    padding: 5px 5px 5px 7px;
+    padding: 7px;
     transition: 0.5s;
     cursor: pointer;
 }
-#left img:hover{
+#left img:hover {
     scale: 1.1;
     background-color: var(--cor3);
 }
-
-#left{
-    background-color:transparent;
+#left {
+    background-color: transparent;
     border: none;
 }
-
-#right img{
-    width: 7em;
+#right img {
+    width: 4em;
+    height: 4em;
     background-color: var(--cor4);
     border-radius: 50%;
-    padding: 5px 5px 5px 7px;
+    padding: 7px ;
     transition: 0.5s;
     cursor: pointer;
 }
-#right img:hover{
+#right img:hover {
     scale: 1.1;
     background-color: var(--cor3);
 }
-
-#right{
-    background-color:transparent;
+#right {
+    background-color: transparent;
     border: none;
 }
 
-footer{
+/* Footer */
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -410,20 +384,23 @@ footer{
     font-size: 2em;
     font-family: 'Heartfield';
 }
+
 footer a {
     color: var(--cor4);
     transition: 0.1s;
 }
-footer a:hover{
+
+footer a:hover {
     color: var(--cor3);
 }
 
-::-webkit-scrollbar{
+/* Barra Rolagem site */
+::-webkit-scrollbar {
     background-color: rgba(0, 0, 0, 0.700);
     width: 7px;
 }
-::-webkit-scrollbar-thumb{
+
+::-webkit-scrollbar-thumb {
     background-color: var(--cor4);
     border-radius: 20px;
-    
 }

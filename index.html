@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,9 +14,10 @@
     <script src="./src/js/script.js" defer></script>
 
 </head>
+
 <body>
     <header>
-        <article id="logo" >
+        <article id="logo">
             <h1>Animals</h1>
         </article>
         <nav id="nav-bar">
@@ -28,95 +30,99 @@
         </nav>
     </header>
 
-    <aside>
-        <article id="aside-text">
-            <h1>Arara <spam style="color:#e01e00;">Vermelha</spam></h1>
+    <aside id="aside-top">
+        <article id="aside-top-txt">
+            <h1>Arara <spam style="color:#e01e00;">Vermelha</spam>
+            </h1>
             <h6>Natureza em Cores Vivas!</h6>
         </article>
-        <nav id="nav-aside">
-            <button class="btn-aside">
+        <nav class="aside-top-bt">
+            <button>
                 <img class="img-aside" src="./src/img/instagram.png" alt="instagram" draggable="false">
             </button>
-            <button class="btn-aside">
+            <button>
                 <img class="img-aside" src="./src/img/facebook.png" alt="facebook" draggable="false">
             </button>
-            <button class="btn-aside">
+            <button>
                 <img class="img-aside" src="./src/img/youtube.png" alt="youtube" draggable="false">
             </button>
-            
         </nav>
+
     </aside>
     <picture>
         <img id="arara" src="./src/img/Arara-g.png" alt="" draggable="false">
     </picture>
     <hr>
-    <main id="mainft">
+
+    <main>
         <nav id="botoes-main">
 
-            <button id="btn-1" onclick="btn_main_1()">
+            <button class="btn-1" >
                 <img src="./src/img/lupa.png" alt="lupa">
             </button>
 
-            <button id="btn-2" onclick="btn_main_2()">
+            <button class="btn-2" >
                 <img src="./src/img/localizacao.png" alt="localização">
             </button>
 
-            <button id="btn-3" onclick="btn_main_3()">
+            <button class="btn-3" >
                 <img src="./src/img/coracao.png" alt="coração">
-            </button>
+            </button  >
         </nav>
-        <aside id="aside-low">
-            <div></div>
-            <article id="msg">
-                <h1>Arara Vermelha: Um Ícone da Floresta Amazônica</h1>
-                <h4>Características Gerais</h4>
-                <p>A arara vermelha, cientificamente conhecida como Ara macao, é uma das espécies mais emblemáticas de papagaios da América do Sul. Esta ave de plumagem vibrante exibe uma impressionante combinação de vermelho, amarelo e azul. As araras vermelhas são conhecidas por seu grande porte, medindo cerca de 90 cm de comprimento e pesando até 1,5 kg. Suas penas são predominantemente vermelhas, com detalhes azuis nas asas e cauda, e uma faixa amarela nas asas. Além de sua beleza, são aves inteligentes e sociais, frequentemente vistas em pares ou grupos familiares.</p>
-            </article>
-        </aside>
-       
-        
+        <article id="msg">
+            <h1>Arara Vermelha: Um Ícone da Floresta Amazônica</h1>
+            <h4>Características Gerais</h4>
+            <p>A arara vermelha, cientificamente conhecida como Ara macao, é uma das espécies mais emblemáticas de
+                papagaios da América do Sul. Esta ave de plumagem vibrante exibe uma impressionante combinação de
+                vermelho, amarelo e azul. As araras vermelhas são conhecidas por seu grande porte, medindo cerca de 90
+                cm de comprimento e pesando até 1,5 kg. Suas penas são predominantemente vermelhas, com detalhes azuis
+                nas asas e cauda, e uma faixa amarela nas asas. Além de sua beleza, são aves inteligentes e sociais,
+                frequentemente vistas em pares ou grupos familiares.</p>
+        </article>
+
+
+
         </section>
     </main>
+
     <hr>
-    <section id="cards">
-        <h1 class="titlo">Veja mais sobre outros animais:</h1>
 
-        <div class="wrapper">
+    <section id="container">
 
-            <button id="left">
-                <img src="./src/img/left.png" alt="arrow left" draggable="false">
-            </button>
+        <h1 class="titulo">Veja mais sobre outros animais:</h1>
 
-            <ul class="carousel">
+        <section class="bloco">
+            
+                <button id="left">
+                    <img src="./src/img/left.png" alt="arrow left" draggable="false">
+                </button>
+                <section class="card">
+                    <img class="img-card " src="./src/img/Lion.jpg" alt="leão">
+                    <h2>Leão</h2>
+                </section>
+                <section class="card">
+                    <img class="img-card" src="./src/img/camaleao.jpg" alt="leão">
+                    <h2>Camaleão</h2>
+                </section>
+                <section class="card">
+                    <img class="img-card" src="./src/img/lobo.jpg" alt="leão">
+                    <h2>Lobo</h2>
+                </section>
+                <button id="right">
+                    <img src="./src/img/right.png" alt="arrow right" draggable="false">
+                </button>
+        </section>
 
-                <li class="card_animais">
-                    <div class="img leao"></div>
-                    <h2>LEÃO</h2>
-                </li>
+        
 
-                <li class="card_animais">
-                    <div class="img camaleao"></div>
-                    <h2>CAMALEÃO</h2>
-                </li>
-
-                <li class="card_animais">
-                    <div class="img lobo"></div>
-                    <h2>LOBO</h2>
-                </li>
-
-            </ul>
-
-            <button id="right">
-                <img src="./src/img/right.png" alt="arrow right" draggable="false">
-            </button>
-
-        </div>
     </section>
 
     <hr>
+
     <footer>
         <p>Feito por <a href="https://github.com/JoaoPiornedo" target="_blank"><strong>João Piornedo</strong></a>
             e <a href="https://github.com/PiornedoCodes07" target="_blank"><strong>Pedro Piornedo</strong></a></p>
     </footer>
 </body>
+
 </html>
