@@ -1,4 +1,13 @@
 @font-face {
+    font-family: 'Ka Blam';
+    src: url('KaBlam.woff2') format('woff2'),
+        url('KaBlam.woff') format('woff'),
+        url('KaBlam.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
     font-family: 'Heartfield';
     src: url('../fonts/Heartfield.woff2') format('woff2'),
         url('../fonts/Heartfield.woff') format('woff');
@@ -49,10 +58,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1em;
+    font-size: 2.5em;
     letter-spacing: 2px;
     color: var(--cor4);
-    font-family: 'Flowers Kingdom', sans-serif;
+    font-family: 'Ka Blam';
 }
 
 #nav-bar {
@@ -125,9 +134,9 @@ header {
 }
 
 #aside-top-txt h1 {
-    font-size: 6em;
+    font-size: 10em;
     text-align: center;
-    font-family: 'Flowers Kingdom';
+    font-family: 'Ka Blam';
 }
 
 #aside-top-txt h6 {
