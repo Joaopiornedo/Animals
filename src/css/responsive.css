@@ -1,6 +1,5 @@
 @media (max-width:320px) {
     header {
-        background-color: aqua;
         display: flex;
         flex-direction: column;
         gap: 0.4em;
@@ -65,12 +64,471 @@
         width: 90%;
         font-size: 1.5em;
     }
+
     #msg h4 {
         width: 90%;
         font-size: 1.3em;
     }
+
     #msg p {
         width: 90%;
         font-size: 1em;
     }
+
+    /* Conatainer Cards Bloco 1/ Título */
+    .titulo {
+        background-color: rgb(27, 65, 121);
+        text-align: center;
+        font-size: 0.9em;
+    }
+
+    /* Cards - Botões / Carrosel */
+    .bloco {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+       
+    }
+
+    .card {
+        height: 200px;
+        max-width: 200px;
+        font-size: 1em;
+        gap: 0.2em;
+    }
+
+    /* Cards - Botões Left / Right */
+    #left img {
+        width: 3em;
+        height: 3em;
+    }
+
+    #right img {
+        width: 3em;
+        height: 3em;
+    }
+    /* Footer */
+footer {
+    font-size: 1em;
+}
+}
+@media (min-width:321px) and (max-width:500px){
+    header {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4em;
+    }
+
+    #logo {
+        font-size: 0.6em;
+    }
+
+    #nav-bar {
+        gap: 0.5em;
+        font-size: 0.8em;
+    }
+
+    .btn-navbar {
+        width: 7em;
+    }
+
+    #btn-login {
+        width: 6em;
+        height: 1.2em;
+    }
+
+    /* Aside - 37em height */
+    #aside-top {
+        height: 25em;
+    }
+
+    #aside-top-txt h1 {
+        font-size: 2em;
+
+    }
+
+    #aside-top-txt h6 {
+        font-size: 1em;
+    }
+
+    /* Aside Bloco 2/ Botões */
+    .img-aside {
+        width: 2.5em;
+    }
+
+    /* Arara */
+    #arara {
+        left: -1em;
+        top: 23em;
+        height: 10.5em;
+        width: 8em;
+    }
+
+    /* Main 50em height*/
+    main {
+        height: 48em;
+    }
+
+    #botoes-main img {
+        width: 3em;
+    }
+
+    /* Main Bloco 2 / Texto  */
+    #msg h1 {
+        width: 90%;
+        font-size: 1.5em;
+    }
+
+    #msg h4 {
+        width: 90%;
+        font-size: 1.3em;
+    }
+
+    #msg p {
+        width: 90%;
+        font-size: 1em;
+    }
+
+    /* Conatainer Cards Bloco 1/ Título */
+    .titulo {
+        background-color: rgb(27, 65, 121);
+        text-align: center;
+        font-size: 0.9em;
+    }
+
+    /* Cards - Botões / Carrosel */
+    .bloco {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+       
+    }
+
+    .card {
+        height: 200px;
+        max-width: 200px;
+        font-size: 1em;
+        gap: 0.2em;
+    }
+
+    /* Cards - Botões Left / Right */
+    #left img {
+        width: 3em;
+        height: 3em;
+    }
+
+    #right img {
+        width: 3em;
+        height: 3em;
+    }
+    /* Footer */
+footer {
+    font-size: 1em;
+}
+}
+@media (min-width:501px) and (max-width:765px){
+    header {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4em;
+    }
+
+    #logo {
+        font-size: 0.6em;
+    }
+
+    #nav-bar {
+        gap: 0.5em;
+        font-size: 0.8em;
+    }
+
+    .btn-navbar {
+        width: 7em;
+    }
+
+    #btn-login {
+        width: 6em;
+        height: 1.2em;
+    }
+
+    /* Aside - 37em height */
+    #aside-top {
+        height: 30em;
+    }
+
+    #aside-top-txt h1 {
+        font-size: 2.5em;
+
+    }
+
+    #aside-top-txt h6 {
+        font-size: 1em;
+    }
+
+    /* Aside Bloco 2/ Botões */
+    .img-aside {
+        width: 3.5em;
+    }
+
+    /* Arara */
+    #arara {
+        left: -1em;
+        top: 22.5em;
+        height: 14.5em;
+        width: 10em;
+    }
+    /* Main Bloco 2 / Texto  */
+    #msg h1 {
+        width: 90%;
+        font-size: 1.8em;
+    }
+
+    #msg h4 {
+        width: 90%;
+        font-size: 1.6em;
+    }
+
+    #msg p {
+        width: 90%;
+        font-size: 1.3em;
+    }
+
+    /* Conatainer Cards Bloco 1/ Título */
+    .titulo {
+        font-size: 1.3em;
+    }
+
+    /* Cards - Botões / Carrosel */
+    .bloco {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+       
+    }
+
+    .card {
+        height: 200px;
+        max-width: 200px;
+        font-size: 1em;
+        gap: 0.2em;
+    }
+
+    /* Cards - Botões Left / Right */
+    #left img {
+        width: 3em;
+        height: 3em;
+    }
+
+    #right img {
+        width: 3em;
+        height: 3em;
+    }
+    /* Footer */
+footer {
+    font-size: 1.5em;
+}
+}
+@media (min-width:766px) and (max-width:920px){
+
+    #nav-bar {
+        gap: 0.5em;
+    }
+
+    .btn-navbar {
+        width: 7em;
+    }
+
+    #btn-login {
+        width: 6em;
+    }
+
+    /* Aside */
+    
+
+    #aside-top-txt h1 {
+        font-size: 4em;
+
+    }
+
+    #aside-top-txt h6 {
+        font-size: 1.5em;
+    }
+
+    /* Arara */
+    #arara {
+        left: -1em;
+        top: 26.5em;
+        height: 17.5em;
+        width: 13em;
+    }
+
+    /* Main Bloco 2 / Texto  */
+    #msg h1 {
+        width: 70%;
+        
+    }
+
+    #msg h4 {
+        width: 70%;
+        
+    }
+
+    #msg p {
+        width: 70%;
+        
+    }
+
+    /* Conatainer Cards Bloco 1/ Título */
+    .titulo {
+        font-size: 2.1em;
+    }
+
+    /* Cards - Botões / Carrosel */
+    .card {
+        height: 220px;
+        max-width: 220px;
+        font-size: 1em;
+        gap: 0.2em;
+    }
+
+    /* Cards - Botões Left / Right */
+    #left img {
+        width: 3em;
+        height: 3em;
+    }
+
+    #right img {
+        width: 3em;
+        height: 3em;
+    }
+    /* Footer */
+footer {
+    font-size: 1.8em;
+}
+}
+@media (min-width:921px) and (max-width:1024px){
+    .btn-navbar {
+        width: 7em;
+    }
+    /* Aside */
+    #aside-top-txt h1 {
+        font-size: 5em;
+
+    }
+
+    #aside-top-txt h6 {
+        font-size: 1.2em;
+    }
+
+    /* Arara */
+    #arara {
+        left: -3em;
+        top: 23.5em;
+        height: 20.5em;
+        width: 17em;
+    }
+
+    /* Main Bloco 2 / Texto  */
+    #msg h1 {
+        width: 60%;
+        
+    }
+
+    #msg h4 {
+        width: 60%;
+        
+    }
+
+    #msg p {
+        width: 60%;
+        
+    }
+
+    /* Conatainer Cards Bloco 1/ Título */
+    .titulo {
+        font-size: 2.5em;
+    }
+
+    /* Cards - Botões / Carrosel */
+    .card {
+        height: 300px;
+        max-width: 300px;
+    }
+
+    /* Cards - Botões Left / Right */
+    #left img {
+        width: 3em;
+        height: 3em;
+    }
+
+    #right img {
+        width: 3em;
+        height: 3em;
+    }
+}
+@media (min-width:1025px) and (max-width:1200px){
+    /* Aside */
+    #aside-top-txt h1 {
+        font-size: 5em;
+
+    }
+
+    #aside-top-txt h6 {
+        font-size: 1.4em;
+    }
+
+    /* Arara */
+    #arara {
+        left: -3em;
+        top: 23.5em;
+        height: 20.5em;
+        width: 17em;
+    }
+
+    /* Conatainer Cards Bloco 1/ Título */
+    .titulo {
+        font-size: 2.7em;
+    }
+
+    /* Cards - Botões / Carrosel */
+    .card {
+        height: 350px;
+        max-width: 350px;
+    }
+
+    /* Cards - Botões Left / Right */
+    #left img {
+        width: 3.5em;
+        height: 3.5em;
+    }
+
+    #right img {
+        width: 3.5em;
+        height: 3.5em;
+    }
+}
+@media (min-width:1201px) and (max-width:1420px){
+
+    #aside-top-txt h6 {
+        font-size: 1.8em;
+    }
+
+    /* Arara */
+    #arara {
+        left: -3em;
+        top: 23.5em;
+        height: 20.5em;
+        width: 17em;
+    }
+    /* Footer */
+}
+@media (min-width:1421px) and (max-width:1620px){
+    /* Arara */
+    #arara {
+        left: -5em;
+        top: 17.5em;
+        height: 26.5em;
+        width: 20em;
+    }
+
 }
