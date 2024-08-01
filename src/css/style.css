@@ -31,7 +31,7 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    position: relative;
+    
 }
 
 /* Header Bloco 1*/
@@ -169,10 +169,13 @@ header {
 }
 
 /* Header Bloco 2/ Arara */
+#container-arara{
+    position: relative;
+}
 #arara {
     position: absolute;
     left: -5em;
-    top: 8.5em;
+    top: -35.5em;
     height: 35.5em;
     width: 28em;
     animation: arara-filter 5s infinite alternate;
