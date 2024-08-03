@@ -7,6 +7,7 @@
     font-style: normal;
     font-display: swap;
 }
+
 @font-face {
     font-family: 'Heartfield';
     src: url('../fonts/Heartfield.woff2') format('woff2'),
@@ -40,7 +41,7 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    
+
 }
 
 /* Header Bloco 1*/
@@ -48,7 +49,7 @@ header {
     background-color: rgba(27, 48, 34, 0.500);
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-    padding: 1em ;
+    padding: 1em;
     height: 7em;
     gap: 1em;
 
@@ -139,7 +140,7 @@ header {
     text-align: center;
     font-family: 'Ka Blam';
     text-transform: uppercase;
-    
+
 }
 
 #aside-top-txt h6 {
@@ -181,9 +182,10 @@ header {
 }
 
 /* Header Bloco 2/ Arara */
-#container-arara{
+#container-arara {
     position: relative;
 }
+
 #arara {
     position: absolute;
     left: -5em;
@@ -211,7 +213,7 @@ main {
     display: grid;
     grid-template-rows: 1fr 7.3fr;
     height: 50em;
-   
+
 
 }
 
@@ -298,10 +300,12 @@ hr {
 
 /* Conatainer Cards */
 #container {
+    background-color: #4b8f8c9e;
     display: flex;
     flex-direction: column;
-    height: 45em;
+    height: 55em;
 }
+
 /* Conatainer Cards Bloco 1/ Título */
 .titulo {
     display: flex;
@@ -312,24 +316,23 @@ hr {
     height: 2em;
     text-shadow: 0px 10px 30px black;
     color: var(--cor4);
-    text-transform: uppercase ;
+    text-transform: uppercase;
     font-family: 'Ka Blam';
     letter-spacing: 0.1em;
 }
+
 /* Cards - Botões / Carrosel */
-.bloco{
-   background-image: url(../img/fundo-cards.jpg);
-   background-size: cover;
-   background-attachment: fixed;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 1em;
-   height:100%;
-   padding: 1em;
+.bloco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    height: 100%;
+   
 
 }
-.card{
+
+.card {
     height: 400px;
     max-width: 400px;
     background-color: var(--cor5);
@@ -344,17 +347,20 @@ hr {
     cursor: pointer;
     transition: ease 1s;
 }
-.card:hover{
+
+.card:hover {
     transform: scale(1.1);
-    
+
 }
+
 .img-card {
     border-radius: 10px 10px 0px 0px;
     width: 100%;
     height: 80%;
     filter: grayscale(100%);
 }
-.img-card:hover{
+
+.img-card:hover {
     filter: grayscale(0%);
 }
 
@@ -368,27 +374,32 @@ hr {
     transition: 0.5s;
     cursor: pointer;
 }
+
 #left img:hover {
     scale: 1.1;
     background-color: var(--cor3);
 }
+
 #left {
     background-color: transparent;
     border: none;
 }
+
 #right img {
     width: 4em;
     height: 4em;
     background-color: var(--cor4);
     border-radius: 50%;
-    padding: 7px ;
+    padding: 7px;
     transition: 0.5s;
     cursor: pointer;
 }
+
 #right img:hover {
     scale: 1.1;
     background-color: var(--cor3);
 }
+
 #right {
     background-color: transparent;
     border: none;
