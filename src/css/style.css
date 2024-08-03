@@ -301,7 +301,6 @@ hr {
     display: flex;
     flex-direction: column;
     height: 45em;
-    gap: 1em;
 }
 /* Conatainer Cards Bloco 1/ Título */
 .titulo {
@@ -325,8 +324,8 @@ hr {
    display: flex;
    justify-content: center;
    align-items: center;
-   gap: 2em;
-   height:85%;
+   gap: 1em;
+   height:100%;
    padding: 1em;
 
 }
