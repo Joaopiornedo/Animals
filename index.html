@@ -11,7 +11,10 @@
 
     <link rel="shortcut icon" href="src/img/icon.ico" type="image/x-icon">
 
+
     <script src="./src/js/script.js" defer></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -69,10 +72,10 @@
                 <img src="./src/img/coracao.png" alt="coração">
             </button  >
         </nav>
-        <article id="msg">
-            <h1>Arara Vermelha: Um Ícone da Floresta Amazônica</h1>
-            <h4>Características Gerais</h4>
-            <p>A arara vermelha, cientificamente conhecida como Ara macao, é uma das espécies mais emblemáticas de
+        <article id="msg" data-aos="zoom-in" >
+            <h1 data-aos="fade-left">Arara Vermelha: Um Ícone da Floresta Amazônica</h1>
+            <h4 data-aos="fade-left">Características Gerais</h4>
+            <p data-aos="fade-left">A arara vermelha, cientificamente conhecida como Ara macao, é uma das espécies mais emblemáticas de
                 papagaios da América do Sul. Esta ave de plumagem vibrante exibe uma impressionante combinação de
                 vermelho, amarelo e azul. As araras vermelhas são conhecidas por seu grande porte, medindo cerca de 90
                 cm de comprimento e pesando até 1,5 kg. Suas penas são predominantemente vermelhas, com detalhes azuis
@@ -89,26 +92,26 @@
 
     <section id="container">
 
-        <h1 class="titulo">Veja mais sobre outros animais:</h1>
+        <h1 class="titulo" data-aos="fade-right">Veja mais sobre outros animais:</h1>
 
         <section class="bloco">
             
-                <button id="left">
+                <button id="left"  data-aos="fade-down-right">
                     <img src="./src/img/left.png" alt="arrow left" draggable="false">
                 </button>
-                <section class="card">
+                <section class="card" data-aos="flip-right">
                     <img class="img-card " src="./src/img/Lion.jpg" alt="leão">
                     <h2>Leão</h2>
                 </section>
-                <section class="card">
+                <section class="card" data-aos="flip-right">
                     <img class="img-card" src="./src/img/camaleao.jpg" alt="leão">
                     <h2>Camaleão</h2>
                 </section>
-                <section class="card">
+                <section class="card" data-aos="flip-right">
                     <img class="img-card" src="./src/img/lobo.jpg" alt="leão">
                     <h2>Lobo</h2>
                 </section>
-                <button id="right">
+                <button id="right" data-aos="fade-down-left">
                     <img src="./src/img/right.png" alt="arrow right" draggable="false">
                 </button>
         </section>
@@ -123,6 +126,11 @@
         <p>Feito por <a href="https://github.com/JoaoPiornedo" target="_blank"><strong>João Piornedo</strong></a>
             e <a href="https://github.com/PiornedoCodes07" target="_blank"><strong>Pedro Piornedo</strong></a></p>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+   
 </body>
 
 </html>

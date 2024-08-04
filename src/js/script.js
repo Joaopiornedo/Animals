@@ -1,4 +1,4 @@
-
+AOS.init();
 //button.addEventListener('click', função);
 var btn1 = document.querySelector(".btn-1")
 var btn2 = document.querySelector(".btn-2")
@@ -54,3 +54,6 @@ function trocar3() {
 btn1.addEventListener('click', trocar1)
 btn2.addEventListener('click', trocar2)
 btn3.addEventListener('click', trocar3)
+
+
+
